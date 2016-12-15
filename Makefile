@@ -3,7 +3,7 @@ AIR = air
 AIR_FILES = air.c
 
 STAGING_DIR = 
-AIRLIB = libairkiss_log.a
+AIRLIB = ./lib/libairkiss_log.a
 TARGET = $(AIR)
 AIR_OBJS = $(AIR_FILES:.c=.o)
 CFLAGS += -I$(STAGING_DIR)/include
