@@ -1,0 +1,90 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AIR	Makefile	/^AIR = air$/;"	m
+AIRKISS_ENABLE_CRYPT	airkiss.h	19;"	d
+AIRKISS_H_	airkiss.h	9;"	d
+AIRKISS_LAN_CONTINUE	airkiss.h	/^	AIRKISS_LAN_CONTINUE = 0,$/;"	e	enum:__anon5
+AIRKISS_LAN_ERR_CMD	airkiss.h	/^	AIRKISS_LAN_ERR_CMD = -4,$/;"	e	enum:__anon5
+AIRKISS_LAN_ERR_OVERFLOW	airkiss.h	/^	AIRKISS_LAN_ERR_OVERFLOW = -5,$/;"	e	enum:__anon5
+AIRKISS_LAN_ERR_PAKE	airkiss.h	/^	AIRKISS_LAN_ERR_PAKE = -3,$/;"	e	enum:__anon5
+AIRKISS_LAN_ERR_PARA	airkiss.h	/^	AIRKISS_LAN_ERR_PARA = -2,$/;"	e	enum:__anon5
+AIRKISS_LAN_ERR_PKG	airkiss.h	/^	AIRKISS_LAN_ERR_PKG = -1,$/;"	e	enum:__anon5
+AIRKISS_LAN_PAKE_READY	airkiss.h	/^	AIRKISS_LAN_PAKE_READY = 2$/;"	e	enum:__anon5
+AIRKISS_LAN_SSDP_NOTIFY_CMD	airkiss.h	/^	AIRKISS_LAN_SSDP_NOTIFY_CMD = 0x1002$/;"	e	enum:__anon6
+AIRKISS_LAN_SSDP_REQ	airkiss.h	/^	AIRKISS_LAN_SSDP_REQ = 1,$/;"	e	enum:__anon5
+AIRKISS_LAN_SSDP_REQ_CMD	airkiss.h	/^	AIRKISS_LAN_SSDP_REQ_CMD = 0x1,$/;"	e	enum:__anon6
+AIRKISS_LAN_SSDP_RESP_CMD	airkiss.h	/^	AIRKISS_LAN_SSDP_RESP_CMD = 0x1001,$/;"	e	enum:__anon6
+AIRKISS_STATUS_CHANNEL_LOCKED	airkiss.h	/^	AIRKISS_STATUS_CHANNEL_LOCKED = 1,$/;"	e	enum:__anon4
+AIRKISS_STATUS_COMPLETE	airkiss.h	/^	AIRKISS_STATUS_COMPLETE = 2$/;"	e	enum:__anon4
+AIRKISS_STATUS_CONTINUE	airkiss.h	/^	AIRKISS_STATUS_CONTINUE = 0,$/;"	e	enum:__anon4
+AIRLIB	Makefile	/^AIRLIB = libairkiss_log.a$/;"	m
+AIR_FILES	Makefile	/^AIR_FILES = air.c$/;"	m
+AIR_OBJS	Makefile	/^AIR_OBJS = $(AIR_FILES:.c=.o)$/;"	m
+Chk_dev_wlan0_link	air.c	/^int Chk_dev_wlan0_link()$/;"	f
+GET_LEN	air.c	235;"	d	file:
+Init	air.c	/^void Init()$/;"	f
+MHZ_COUNT	air.c	56;"	d	file:
+MHZ_LEN	air.c	55;"	d	file:
+TARGET	Makefile	/^TARGET = $(AIR)$/;"	m
+_endtime	air.c	/^struct timeval _starttime, _endtime;$/;"	v	typeref:struct:
+_nChnNums	air.c	/^int _nChnNums[MHZ_COUNT] = {0};           \/\/ɨ�����ŵ�$/;"	v
+_nDiffTime	air.c	/^int _nStart = 0, _nEnd = 0, _nDiffTime = 0;$/;"	v
+_nEnd	air.c	/^int _nStart = 0, _nEnd = 0, _nDiffTime = 0;$/;"	v
+_nMaxTime	air.c	/^const int _nMaxTime = 30;                                       \/\/��Ϊ��λ$/;"	v
+_nStart	air.c	/^int _nStart = 0, _nEnd = 0, _nDiffTime = 0;$/;"	v
+_starttime	air.c	/^struct timeval _starttime, _endtime;$/;"	v	typeref:struct:timeval
+airkiss_config_t	airkiss.h	/^} airkiss_config_t;$/;"	t	typeref:struct:__anon1
+airkiss_context_t	airkiss.h	/^} airkiss_context_t;$/;"	t	typeref:struct:__anon2
+airkiss_finish	air.c	/^static unsigned char airkiss_finish(void)$/;"	f	file:
+airkiss_lan_cmdid_t	airkiss.h	/^} airkiss_lan_cmdid_t;$/;"	t	typeref:enum:__anon6
+airkiss_lan_ret_t	airkiss.h	/^} airkiss_lan_ret_t;$/;"	t	typeref:enum:__anon5
+airkiss_memcmp_fn	airkiss.h	/^typedef int (*airkiss_memcmp_fn) (const void* ptr1, const void* ptr2, unsigned int num);$/;"	t
+airkiss_memcpy_fn	airkiss.h	/^typedef void* (*airkiss_memcpy_fn) (void* dst, const void* src, unsigned int num);$/;"	t
+airkiss_memset_fn	airkiss.h	/^typedef void* (*airkiss_memset_fn) (void* ptr, int value, unsigned int num);$/;"	t
+airkiss_printf_fn	airkiss.h	/^typedef int (*airkiss_printf_fn) (const char* format, ...);$/;"	t
+airkiss_result_t	airkiss.h	/^} airkiss_result_t;$/;"	t	typeref:struct:__anon3
+airkiss_status_t	airkiss.h	/^} airkiss_status_t;$/;"	t	typeref:enum:__anon4
+akconf	air.c	/^const airkiss_config_t akconf = $/;"	v
+akcontex	air.c	/^airkiss_context_t akcontex;$/;"	v
+broadcast_result	air.c	/^static int broadcast_result(unsigned char random)$/;"	f	file:
+curr_channel	air.c	/^int curr_channel = 1;                     \/\/��ǰ���ŵ�$/;"	v
+dummy	airkiss.h	/^	int dummy[32];$/;"	m	struct:__anon2
+dummyap	airkiss.h	/^	int dummyap[26];$/;"	m	struct:__anon2
+get_chnl_info	air.c	/^void get_chnl_info(int nChnNums[MHZ_COUNT])$/;"	f
+got_result	air.c	/^int got_result = 0;$/;"	v
+ieee80211_radiotap_header	air.c	/^struct ieee80211_radiotap_header $/;"	s	file:
+it_len	air.c	/^        u_int16_t       it_len;         \/*  entire length *\/$/;"	m	struct:ieee80211_radiotap_header	file:
+it_pad	air.c	/^        u_int8_t        it_pad;$/;"	m	struct:ieee80211_radiotap_header	file:
+it_present	air.c	/^        u_int32_t       it_present;     \/*  fields present *\/$/;"	m	struct:ieee80211_radiotap_header	file:
+it_version	air.c	/^        u_int8_t        it_version;     \/*  set to 0 *\/$/;"	m	struct:ieee80211_radiotap_header	file:
+locked	air.c	/^static int locked = 0;$/;"	v	file:
+main	air.c	/^int main (int argc, char **argv)$/;"	f
+memcmp	airkiss.h	/^	airkiss_memcmp_fn memcmp;$/;"	m	struct:__anon1
+memcpy	airkiss.h	/^	airkiss_memcpy_fn memcpy;$/;"	m	struct:__anon1
+memset	airkiss.h	/^	airkiss_memset_fn memset;$/;"	m	struct:__anon1
+nChangeChnCount	air.c	/^int nChangeChnCount = 0;                  \/\/ѭ���л��ŵ��Ĵ���$/;"	v
+nChnleCount	air.c	/^int nChnleCount = 0;                      \/\/�ŵ�������$/;"	v
+printf	airkiss.h	/^	airkiss_printf_fn printf;$/;"	m	struct:__anon1
+process_packet	air.c	/^void process_packet(unsigned char *arg, const struct pcap_pkthdr* pkthdr, const unsigned char* packet)$/;"	f
+pwd	airkiss.h	/^	char* pwd;						\/* wifi密码，以'\\0'结尾 *\/$/;"	m	struct:__anon3
+pwd_length	airkiss.h	/^	unsigned char pwd_length;		\/* wifi密码长度 *\/$/;"	m	struct:__anon3
+random	airkiss.h	/^	unsigned char random;			\/* 随机值，根据AirKiss协议，当wifi连接成功后，需要通过udp向10000端口广播这个随机值，这样AirKiss发送端（微信客户端或者AirKissDebugger）就能知道AirKiss已配置成功 *\/$/;"	m	struct:__anon3
+reserved	airkiss.h	/^	unsigned char reserved;			\/* 保留值 *\/$/;"	m	struct:__anon3
+scan_channel	air.c	/^void scan_channel()$/;"	f
+set_wifi_channel	air.c	/^static void set_wifi_channel(int chan)$/;"	f	file:
+ssid	airkiss.h	/^	char* ssid;						\/* wifi ssid，以'\\0'结尾 *\/$/;"	m	struct:__anon3
+ssid_length	airkiss.h	/^	unsigned char ssid_length;		\/* wifi ssid长度 *\/$/;"	m	struct:__anon3
+timer	air.c	/^struct itimerval timer;$/;"	v	typeref:struct:itimerval
+timer_100ms_callback	air.c	/^static void  timer_100ms_callback(int signo)$/;"	f	file:
+timer_chnchan_disable	air.c	/^static void timer_chnchan_disable(void)$/;"	f	file:
+times	air.c	/^static int times = 0;$/;"	v	file:
+u_int16_t	air.c	/^typedef unsigned short u_int16_t;$/;"	t	file:
+u_int32_t	air.c	/^typedef unsigned int u_int32_t;$/;"	t	file:
+u_int8_t	air.c	/^typedef unsigned char u_int8_t;$/;"	t	file:
+uint16	air.c	/^typedef unsigned short int uint16;$/;"	t	file:
+uint8	air.c	/^typedef unsigned char uint8;$/;"	t	file:
+wifi_promiscuous_rx	air.c	/^static void wifi_promiscuous_rx(uint8 *buf, uint16 len)$/;"	f	file:
